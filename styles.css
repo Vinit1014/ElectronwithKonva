@@ -1,0 +1,96 @@
+
+
+   /* .container {
+    display: flex;
+    height: 100vh;
+}
+
+.buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#canvasContainer {
+    flex: 3;
+    position: relative;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+}
+
+#konva-holder {
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+#shapeName {
+    flex: 0;
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+#properties {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+} */
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.buttons {
+  flex: 1;
+  display: flex;
+  margin: 2px 4px;
+  flex-direction: column; /* Change to row to align buttons horizontally */
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.buttons button {
+  margin: 0 10px; /* Add margin to space out buttons */
+}
+
+#canvasContainer {
+  flex: 3;
+  position: relative;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+
+#konva-holder {
+  flex: 1;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+#shapeName {
+  flex: 0;
+  text-align: center;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+#properties {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#properties button {
+  display: block; /* Make each button take the full width */
+  width: 60%; /* Ensure buttons take full width of the parent container */
+  margin-bottom: 10px; /* Add some space between buttons */
+}
